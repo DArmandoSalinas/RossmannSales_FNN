@@ -15,7 +15,8 @@ env/
 # Data & artifacts (download from Kaggle — see README)
 data/raw/*.csv
 data/processed/*.csv
-outputs/
+outputs/*
+!outputs/.gitkeep
 *.h5
 *.keras
 
