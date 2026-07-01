@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & artifacts (download from Kaggle — see README)
+data/raw/*.csv
+data/processed/*.csv
+outputs/
+*.h5
+*.keras
+
+# OS & IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
